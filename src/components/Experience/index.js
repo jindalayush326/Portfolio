@@ -191,7 +191,7 @@ const CircleImage = styled.img`
   border-radius: 50%;
 `;
 
-const Experience = ({}) => {
+const Experience = () => {
   const [visibleIndex, setVisibleIndex] = useState(-1);
   const boxRefs = useRef([]);
 
@@ -204,10 +204,11 @@ const Experience = ({}) => {
   }, []);
 
   return (
-    <Container id = "experience">
+    <Container id="experience">
       <Wrapper>
         <Title>Experience</Title>
-        <Desc>My work experience as a Software Developer and working on different Companies and Projects.
+        <Desc>
+          My work experience as a Software Developer and working on different Companies and Projects.
         </Desc>
         <TimelineSection>
           <Timeline>
@@ -225,8 +226,6 @@ const Experience = ({}) => {
                   </TextBox>
                 </LeftContainer>
               ) : (
-               
-
                 <RightContainer
                   key={exp.id}
                   delay={index + 1}
@@ -235,14 +234,6 @@ const Experience = ({}) => {
                 >
                   <TextBox>
                     <ExperienceCard experience={exp} />
-                    <div>{exp.date}</div>
-                    {exp.doc && (
-                      <div>
-                        <a href={exp.doc} target="_blank" rel="noopener noreferrer">
-                          Certificate
-                        </a>
-                      </div>
-                    )}
                     <RightContainerArrow />
                   </TextBox>
                 </RightContainer>
