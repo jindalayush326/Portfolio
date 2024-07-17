@@ -13,11 +13,28 @@ import {
   // MobileNavLogo,
   MobileLink,
 } from "./NavbarStyledComponent";
+import { Link } from 'react-router-dom';
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
 import { Bio } from "../../data/constants";
 // import { Close, CloseRounded } from "@mui/icons-material";
 import { useTheme } from "styled-components";
+import styled from 'styled-components';
+
+const NavLogo = styled(Link)`
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none;
+`;
+
+const Span = styled.span`
+  margin-left: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+`;
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -26,17 +43,8 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">
-          <a
-            style={{
-              display: "flex",
-              alignItems: "center",
-              color: "white",
-              marginBottom: "20;",
-              cursor: "pointer",
-            }}
-          >
-            <DiCssdeck size="3rem" /> <Span>Ayush Jindal</Span>
-          </a>
+          <DiCssdeck size="3rem" />
+          <Span>Ayush Jindal</Span>
         </NavLogo>
         <MobileIcon>
           <FaBars
