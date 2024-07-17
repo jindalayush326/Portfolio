@@ -1,8 +1,8 @@
 {
   "name": "ayush-jindal-portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/jindalayush326",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.0",
