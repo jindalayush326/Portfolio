@@ -120,18 +120,18 @@ const ContactButton = styled.input`
 const Contact = () => {
   const [openSnackbar, setOpenSnackbar] = React.useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
 
-    // Simulating form submission (you will replace this with your actual email sending code)
-    setTimeout(() => {
-      setOpenSnackbar(true);
-      // Redirecting to home page after 3 seconds
-      setTimeout(() => {
-        window.location.href = '/'; // Replace with your home page URL
-      }, 3000);
-    }, 1000);
-  };
+  //   // Simulating form submission (you will replace this with your actual email sending code)
+  //   setTimeout(() => {
+  //     setOpenSnackbar(true);
+  //     // Redirecting to home page after 3 seconds
+  //     setTimeout(() => {
+  //       window.location.href = '/'; // Replace with your home page URL
+  //     }, 3000);
+  //   }, 1000);
+  // };
 
   return (
     <Container>
