@@ -10,18 +10,16 @@ import {
   ButtonContainer,
   MobileIcon,
   MobileMenu,
-  // MobileNavLogo,
   MobileLink,
 } from "./NavbarStyledComponent";
 import { Link } from 'react-router-dom';
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
 import { Bio } from "../../data/constants";
-// import { Close, CloseRounded } from "@mui/icons-material";
 import { useTheme } from "styled-components";
 import styled from 'styled-components';
 
-const NavLogo = styled(Link)`
+const StyledNavLogo = styled(Link)`
   display: flex;
   align-items: center;
   color: white;
@@ -30,7 +28,7 @@ const NavLogo = styled(Link)`
   text-decoration: none;
 `;
 
-const Span = styled.span`
+const SpanStyled = styled.span`
   margin-left: 10px;
   font-size: 1.5rem;
   font-weight: bold;
@@ -42,10 +40,10 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/">
+        <StyledNavLogo to="/">
           <DiCssdeck size="3rem" />
-          <Span>Ayush Jindal</Span>
-        </NavLogo>
+          <SpanStyled>Ayush Jindal</SpanStyled>
+        </StyledNavLogo>
         <MobileIcon>
           <FaBars
             onClick={() => {
