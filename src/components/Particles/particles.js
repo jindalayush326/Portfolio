@@ -1,16 +1,12 @@
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo } from "react";
 import { loadSlim } from "@tsparticles/slim"; // Make sure to install this package
 
 const ParticlesComponent = (props) => {
-  const [init, setInit] = useState(false);
-
   // This should be run only once per application lifetime
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
-    }).then(() => {
-      setInit(true);
     });
   }, []);
 
