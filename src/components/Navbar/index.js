@@ -3,8 +3,6 @@ import {
   Nav,
   NavLink,
   NavbarContainer,
-  Span,
-  NavLogo,
   NavItems,
   GitHubButton,
   ButtonContainer,
