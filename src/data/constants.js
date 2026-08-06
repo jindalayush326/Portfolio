@@ -15,18 +15,223 @@ import Mentor from '../images/mentor.jpeg'
 
 export const Bio = {
   name: "Ayush Jindal",
-  roles: ["ML Developer", "Full Stack Developer", "Designer", "Programmer"],
+  roles: ["Software Engineer", "Backend Developer", "Data Analyst", "Golang Developer", "Business Analyst"],
   description:
-    "I am a driven and adaptable Computer Science student, passionate about AI and software development. Eager to innovate and solve complex problems, I aim to contribute effectively and continuously grow",
+  "Backend Software Engineer with experience building scalable APIs, distributed systems, cloud-native applications, and automation solutions using Golang, PostgreSQL, Redis, Docker, AWS, gRPC, and NATS. Passionate about solving business problems through software engineering and data analytics.",
   github: "https://github.com/jindalayush326",
   resume:
-    "https://drive.google.com/file/d/1Z9qcW6VCWNgDvW4mxhWhnRGzK-HaSwPk/view?usp=sharing",
+    "https://drive.google.com/file/d/1Gt6MSrzR-Fao9ZaWj0uTy5lF0QRkB4NQ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ayush-jindal-684181219/",
   twitter: "https://x.com/jindalayush_?t=Xp9kmAnTAxUK5n0LZByoRw&s=09",
   insta: "https://www.instagram.com/jindalayush8_?utm_source=qr&igsh=bmhxMWZqYjQ4b2w=",
+  email: "jindalayushaj@gmail.com"
 };
 
 export const skills = [
+  {
+    title: "Backend Development",
+
+    skills: [
+      {
+        name: "Golang",
+        image:
+          "https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png",
+      },
+      {
+        name: "Gin Framework",
+        image:
+          "https://raw.githubusercontent.com/gin-gonic/logo/master/color.png",
+      },
+      {
+        name: "GORM",
+        image:
+          "https://gorm.io/gorm.svg",
+      },
+      {
+        name: "REST APIs",
+        image:
+          "https://cdn-icons-png.flaticon.com/512/2165/2165004.png",
+      },
+       {
+        name: "gRPC",
+        image: "https://grpc.io/img/logos/grpc-icon-color.png",
+      },
+      {
+        name: "NATS",
+        image: "https://avatars.githubusercontent.com/u/3732704?s=200&v=4",
+      },
+      {
+        name: "Microservices",
+        image: "https://cdn-icons-png.flaticon.com/512/2103/2103633.png",
+      },
+      {
+        name: "PostgreSQL",
+        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+      },
+      {
+        name: "Firebase",
+        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
+      {
+        name: "Redis",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+      },
+      {
+        name: "JWT",
+        image:
+          "https://cdn-icons-png.flaticon.com/512/1048/1048953.png",
+      },
+      {
+        name: "Docker",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      },
+      {
+        name: "AWS",
+        image:
+          "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
+      },
+      {
+        name: "Git",
+        image:
+          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+      },
+      {
+        name: "GitHub",
+        image:
+          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+    ],
+  },
+   {
+    title: "Data Analytics",
+
+    skills: [
+      {
+        name: "SQL",
+        image:
+          "https://cdn-icons-png.flaticon.com/512/4248/4248443.png",
+      },
+      {
+        name: "Python",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "Power BI",
+        image:
+          "https://img.icons8.com/color/512/power-bi.png",
+      },
+      {
+        name: "Microsoft Excel",
+        image:
+          "https://img.icons8.com/color/512/microsoft-excel-2019.png",
+      },
+      {
+        name: "Pandas",
+        image:
+          "https://cdn.worldvectorlogo.com/logos/pandas.svg",
+      },
+      {
+        name: "NumPy",
+        image:
+          "https://numpy.org/images/logo.svg",
+      },
+      {
+        name: "Data Visualization",
+        image:
+          "https://cdn-icons-png.flaticon.com/512/2784/2784487.png",
+      },
+      {
+        name: "Business Analytics",
+        image:
+          "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      },
+      {
+        name: "Dashboard Development",
+        image:
+          "https://cdn-icons-png.flaticon.com/512/1828/1828919.png",
+      },
+      {
+        name: "Data Cleaning",
+        image:
+          "https://cdn-icons-png.flaticon.com/512/2942/2942789.png",
+      },
+    ],
+  },
+  {
+    title: "Programming Languages",
+
+    skills: [
+      {
+        name: "Go",
+        image:
+          "https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png",
+      },
+      {
+        name: "Python",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      },
+      {
+        name: "Java",
+        image:
+          "https://cdn-icons-png.flaticon.com/512/226/226777.png",
+      },
+      {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+      },
+      {
+        name: "SQL",
+        image:
+          "https://cdn-icons-png.flaticon.com/512/4248/4248443.png",
+      },
+    ],
+  },
+  {
+    title: "Tools & Technologies",
+
+    skills: [
+      {
+        name: "Docker",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      },
+      {
+        name: "AWS",
+        image:
+          "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
+      },
+      {
+        name: "Git",
+        image:
+          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+      },
+      {
+        name: "GitHub",
+        image:
+          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+      {
+        name: "Linux",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+      },
+      {
+        name: "Postman",
+        image:
+          "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+      },
+      {
+        name: "VS Code",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+      },
+    ],
+  },
   {
     title: "Data Science",
     skills: [
@@ -66,16 +271,6 @@ export const skills = [
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThr7qrIazsvZwJuw-uZCtLzIjaAyVW_ZrlEQ&s",
       },
       {
-        name: "PowerBI",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvu_fxyw0IGnffX6fvX7Sp_cgzKzydhoPAJQ&s",
-      },
-      {
-        name: "AWS",
-        image:
-          "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
-      },
-      {
         name: "Streamlit",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYuX4Y0nAXZ6br6P7pwvVG7waXenE4mTsfKA&s",
@@ -90,112 +285,11 @@ export const skills = [
         image:
           "https://w7.pngwing.com/pngs/434/165/png-transparent-heroku-original-wordmark-logo-icon-thumbnail.png",
       },
-      {
-        name: "SQL",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM91T1S4z84bTfnQg-ExIMn9MW_bs43wkg5g&s",
-      },
     ],
   },
-  {
-    title: "Frontend",
-    skills: [
-      {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
-      {
-        name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-      },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
-      {
-        name: "Material UI",
-        image:
-          "https://miro.medium.com/v2/resize:fit:1400/1*_6ooq0R60ba3UT5c-QVemA.png",
-      },
-      {
-        name: "Tailwind CSS",
-        image:
-          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
-      },
-    ],
-  },
-  {
-    title: "Backend",
-    skills: [
-      {
-        name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
-      },
-      {
-        name: "Express Js",
-        image:
-          "data:image/png;base64,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",
-      },
-      {
-        name: "Flask",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1200px-Flask_logo.svg.png",
-      },
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      {
-        name: "Postgresql",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      },
-      {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
-      {
-        name: "Firebase",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
-    ],
-  },
-  
   {
     title: "Others",
     skills: [
-      {
-        name: "Java",
-        image:
-          "https://w7.pngwing.com/pngs/837/18/png-transparent-logo-java-runtime-environment-programming-language-runtime-system-oracle-text-logo-desktop-wallpaper-thumbnail.png",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
       {
         name: "Netlify",
         image:
@@ -233,13 +327,80 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://www.greatplacetowork.in/great/api/assets/uploads/12013/logo/logo.png",
+    company: "TechAhead Software Pvt. Ltd.",
+    role: "Associate Software Engineer",
+    date: "Apr 2026 - July 2026",
+
+    desc:
+      "Working as a Backend Software Engineer, developing scalable backend applications and RESTful APIs using Golang. Collaborating with cross-functional teams to build secure, high-performance solutions while optimizing database operations and application performance. Also involved in system design discussions, code reviews, and cloud-based deployments.",
+
+    skills: [
+      "Golang",
+      "Gin",
+      "REST APIs",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "gRPC",
+      "NATS",
+      "Microservices",
+      "Docker",
+      "AWS",
+      "Git",
+    ],
+  },
+  {
+    id: 1,
+    img: "https://play-lh.googleusercontent.com/UURkNQZjHphPbGmYmLOSBhW-CfwQWLfV_-tA-F6WpeHJ_3m5Gbdfud9Wn8HcSuwFBkJWB9oisPboHMHqg_gY0BE",
+    role: "Golang Developer",
+    company: "FITPASS",
+    date: "Sep 2025 - Mar 2026",
+    desc:
+      "Designed and developed backend services using Golang. Built an automated Load Testing Platform using Locust for configurable API performance testing. Integrated AWS Rekognition for Face Verification and Liveness Detection APIs. Worked with PostgreSQL, REST APIs, Docker, and backend automation to improve testing efficiency and service reliability.",
+    skills: [
+      "Golang",
+      "Gin",
+      "REST APIs",
+      "PostgreSQL",
+      "AWS Rekognition",
+      "Docker",
+      "Locust",
+      "Redis",
+      "Git",
+      "Python",
+    ],
+  },
+  {
+  id: 2,
+  img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO2Sdyf5FB1BpZdRK3dZVP1Io_l2DpWaqiv-hQSiYjWw&s", // Import your logo
+  role: "Founder & Product Developer",
+  company: "FittVybe",
+
+  date: "Dec 2024 – Jun 2025",
+
+  desc:
+    "Founded FittVybe, a health and fitness technology startup focused on delivering innovative digital solutions. Led product strategy, backend architecture, and business planning while building scalable applications and validating product ideas. Managed the complete product lifecycle from concept and market research to development, branding, and deployment.",
+
+  skills: [
+    "Entrepreneurship",
+    "Product Development",
+    "Backend Development",
+    "REST APIs",
+    "PostgreSQL",
+    "AWS",
+    "Business Strategy",
+    "Market Research"
+  ]
+},
+  {
+    id: 3,
     img: "https://aftr.world/static/media/aftr-blue.e3941e466fbd05772133.webp",
     role: "Software Developer Intern",
-    company: "Aftrworld.AI",
+    company: "AftrAI",
     date: "Jan 2024 - Mar 2024",
     desc: "Developed and implemented a sophisticated chatbot leveraging Gemini to extract pertinent information, enabling seamless interaction with users through natural language processing",
     skills: [
-      "Docker",
       "Langchain",
       "Gemini",
       "Postgresql",
@@ -253,8 +414,8 @@ export const experiences = [
     doc: Certificate,
   },
   {
-    id: 1,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScGGZEbgZrORulbKcuEP0h7B2AfZPWxNcBKQ&s",
+    id: 4,
+    img: "https://media.licdn.com/dms/image/v2/C510BAQGSObrO0QPlMQ/company-logo_200_200/company-logo_200_200/0/1630597186826/girlscriptsoc_logo?e=2147483647&v=beta&t=hMIYqKIIlV3PFys0Ff4bQba_kZIMvychDesmF1_xmcU",
     role: "Mentor",
     company: "GirlScript Summer Of Code",
     date: "May 2024 - June 2024",
@@ -276,9 +437,9 @@ export const education = [
     id: 0,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvR2Y9JOZJ_8oNSR3zymDMy5WQ7VQuODDUQg&s",
     school: "Ajay Kumar Garg Engineering College",
-    date: "Nov 2021 - Jun 2025",
-    grade: "7.82 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Ajay Kumar Garg Engineering College, Ghaziabad. I have completed 6 semesters and have a CGPA of 7.82. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks,Artificial Intelligence & Machine Learning and among others. I am also a coordinator of the Team Horizon at AKGEC, where I am learning and working on exciting projects with a team of talented developers.",
+    date: "Nov 2021 - May 2025",
+    grade: "7.53 CGPA(I-Div With Distinction)",
+    desc: "Completed Bachelor's in Computer Science & Engineering with specialization in Artificial Intelligence & Machine Learning. Gained strong foundations in Data Structures & Algorithms, Operating Systems, Computer Networks, Database Management Systems, Software Engineering, Artificial Intelligence, Machine Learning, Cloud Computing, and Backend Development. During the program, developed multiple backend applications, analytics dashboards, and real-world software engineering projects.",
     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
@@ -287,8 +448,11 @@ export const education = [
     school: "MJ Public School,Madnai",
     date: "May 2019 - Apr 2021",
     grade: "82%",
-    desc: "I completed my class 12 high school education at MJ Public School,Madnai, where I studied PCM.",
-    degree: "CBSE(XII), PCM",
+    degree:
+      "Senior Secondary (CBSE) - Physics, Chemistry & Mathematics",
+
+    desc:
+      "Completed Higher Secondary Education with PCM, building a strong foundation in mathematics, logical reasoning, and analytical problem solving.",
   },
   {
     id: 2,
@@ -296,26 +460,197 @@ export const education = [
     school: "BLS International School, Hathras",
     date: "Apr 2016 - Apr 2019",
     grade: "94.8%",
-    desc: "I completed my class 10 education at BLS International School, Hathras.",
-    degree: "CBSE(X)",
+     degree: "Secondary School (CBSE)",
+    desc:
+      "Completed secondary education with distinction, demonstrating strong academic performance and active participation in school activities.",
   },
 ];
 
 export const projects = [
-  {
+   {
     id: 0,
-    title: "FitMate",
-    date: "Apr 2024 - May 2024",
+    title: "E-Auction Platform",
+    date: "Apr 2026 - May 2026",
+
     description:
-      "Developed Fit Chatbot, leveraging AI for personalized fitness guidance, including BMI calculation, workout plans, and real-time support .Integrated geolocation services to facilitate gym location and seamless access, enhancing user convenience and engagement is long term goal",
-    image: Fitmate,
-    tags: ["React Js", "Langchain", "Gemini","LLM", "Python","Postgresql", "Flask"],
-    category: "machine learning",
-    github: "https://github.com/pradyumnpj/FitMate",
-    webapp: "https://drive.google.com/file/d/1ecP2R1zXLWuD7xvGx_YXoo5DMpXG_f3-/view?usp=sharing",
+      "Developed a scalable backend for an online auction platform using Golang. Implemented secure authentication, bid management, auction lifecycle, RESTful APIs, and database optimization to support real-time bidding and high-performance transactions.",
+    image: "https://backend.tpauctions.net//upload/slider/slider_3z9mq32gb0gms8zklej.jpeg", // Import your image
+    tags: [
+      "Golang",
+      "Gin",
+      "PostgreSQL",
+      "Redis",
+      "REST API",
+      "JWT",
+      "NATS",
+      "gRPC",
+      "Docker",
+    ],
+
+    category: "backend",
+    github: "",
+    webapp: "",
   },
   {
-    id: 1,
+  id: 1,
+  title: "Wealth Analytics & Portfolio Dashboard",
+  date: "Jun 2026 - July 2026",
+
+  description:
+    "Contributed to the backend development of a digital wealth management platform for investment and portfolio management. Designed and implemented scalable RESTful APIs, optimized database queries, integrated third-party financial services, and enhanced application performance while ensuring secure and reliable data processing.",
+  image: "https://static.fmgsuite.com/media/TransparentLogo/variantSize/4208890f-9cee-4134-9a97-3ad223c2f0f7.png",
+
+  tags: [
+    "Golang",
+    "Gin",
+    "REST APIs",
+    "PostgreSQL",
+    "Redis",
+    "Docker",
+    "AWS",
+    "Microservices",
+    "gRPC"
+  ],
+  category: "backend",
+  github: "",
+  webapp: ""
+},
+   {
+    id: 2,
+    title: "Load Testing Automation Platform",
+    date: " Sept 2025",
+    description:
+      "Designed and developed an automation platform using Golang and Locust that automatically discovers APIs from web applications and generates configurable performance tests. Supports user count, spawn rate, test duration, and report generation.",
+    image: "https://miro.medium.com/0*0Xhp3PN4SrbDYEHs.png",
+    tags: [
+      "Golang",
+      "Python",
+      "Locust",
+      "Docker",
+      "REST API",
+      "Automation",
+    ],
+    category: "backend",
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 3,
+    title: "Face Verification & Liveness Service",
+    date: " Mar 2026",
+    description:
+      "Integrated AWS Rekognition APIs for face comparison and liveness detection. Developed backend APIs that securely verify user identity with high accuracy for onboarding and KYC workflows.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXwdVcHVozA97BEJVcwa8g9tERGKLXhGC8KcKoe3GPebvHsCLVthkalSSU&s=10",
+    tags: [
+      "Golang",
+      "AWS",
+      "Rekognition",
+      "REST API",
+      "Gin",
+    ],
+    category: "backend",
+    github: "",
+    webapp: "",
+  },
+
+  {
+    id: 4,
+    title: "Fitness Platform Backend",
+    date: " Oct 2025",
+
+    description:
+      "Developed backend services for a fitness platform including authentication, user management, integrations, and scalable APIs while improving performance and maintainability of existing services.",
+
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6d5BQtOxE5ska4nmm5Dnps-RZT0xjYM-3ILp2QRDgxg&s",
+
+    tags: [
+      "Golang",
+      "PostgreSQL",
+      "REST API",
+      "Redis",
+      "Docker",
+    ],
+
+    category: "backend",
+    github: "",
+    webapp: "",
+  },
+
+  {
+    id: 5,
+    title: "Sales Analytics Dashboard",
+    date: "2026",
+
+    description:
+      "Interactive Moengage dashboard for sales performance analysis featuring KPIs, revenue trends, profit analysis, regional performance, and executive-level business insights.",
+
+    image: "https://static.coupler.io/templates/crm-for-hubspot-dashboard.png",
+
+    tags: [
+      "CRM",
+      "SQL",
+      "Moengage",
+      "Excel",
+      "Data Visualization",
+    ],
+
+    category: "analytics",
+
+    github: "",
+
+    webapp: "",
+  },
+  {
+    id: 6,
+
+    title: "Financial Performance Dashboard",
+
+    date: "2026",
+
+    description:
+      "Created a financial dashboard for tracking revenue, expenses, profit margin, and business KPIs with interactive filtering and visualization using Power BI.",
+
+    image: "https://www.boldbi.com/wp-content/uploads/2026/01/financial-analysis-dashboard-v2.webp",
+
+    tags: [
+      "CRM",
+      "SQL",
+      "Excel",
+      "Dashboard",
+    ],
+
+    category: "analytics",
+
+    github: "",
+
+    webapp: "",
+  },
+
+  {
+    id: 7,
+
+    title: "AI Fitness Assistant",
+
+    date: "2024",
+
+    description:
+      "Built an AI-powered fitness assistant capable of generating personalized workout plans, calculating BMI, and answering health-related queries using Large Language Models.",
+
+    image: Fitmate,
+
+    tags: [
+      "Python",
+      "LangChain",
+      "Gemini",
+      "Flask",
+      "React",
+    ],
+    category: "ai",
+    github: "YOUR_GITHUB",
+    webapp: "",
+  },
+  {
+    id: 8,
     title: "Agriculture Bot",
     date: "May 2024",
     description:
@@ -336,7 +671,7 @@ export const projects = [
     webapp: "https://agriculture-bot.onrender.com/",
   },
   {
-    id: 2,
+    id: 9,
     title: "Hawk Chat Analyzer",
     date: "Dec 2023 - Jan 2024",
     description:
@@ -348,7 +683,7 @@ export const projects = [
     webapp: "hawk-chat-analyzer.onrender.com/",
   },
   {
-    id: 4,
+    id: 10,
     title: "Multiple Disease Prediction",
     date: "May 2023",
     description:
@@ -360,7 +695,7 @@ export const projects = [
     webapp: "https://github.com/jindalayush326/Multiple_Disease_Prediction",
   },
   {
-    id: 5,
+    id: 11,
     title: "Fraud Detection App",
     date: "Jun 2023 - Jul 2023",
     description:
@@ -372,7 +707,7 @@ export const projects = [
     webapp: "https://github.com/jindalayush326/Sphinx",
   },
   {
-    id: 4,
+    id: 12,
     title: "Infinity Hub Movie Website ",
     date: "Mar 2023",
     description:
@@ -384,7 +719,7 @@ export const projects = [
     webapp: "https://github.com/jindalayush326/Infinity-Hub",
   },
   {
-    id: 5,
+    id: 13,
     title: "Crypto Trading Website",
     date: "Jul 2023",
     description:
@@ -396,7 +731,7 @@ export const projects = [
     webapp: "https://github.com/jindalayush326/Hawk",
   },
   {
-    id: 6,
+    id: 14,
     title: "Social Media Posts",
     date: "Jun 2022-Nov 2023",
     description:
@@ -408,7 +743,7 @@ export const projects = [
     webapp: "https://www.instagram.com/p/Cj0OERphmty/?img_index=1",
   },
   {
-    id: 7,
+    id: 15,
     title: "Video Creator",
     date: "Jun 2022-Nov 2023",
     description:
@@ -422,8 +757,28 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2021, text: "Started my journey" },
-  { year: 2022, text: "Join Team Horizon to develop TechnoManagerial Skills" },
-  { year: 2023, text: "Won First Hackathon at HACKNITR" },
-  { year: 2024, text: "Join my first Internship" },
+  {
+    year: 2021,
+    text: "Started B.Tech in Computer Science & Engineering (AI & ML) and built a strong foundation in programming, data structures, and software engineering.",
+  },
+  {
+    year: 2022,
+    text: "Developed full-stack applications and strengthened problem-solving skills through academic and personal projects.",
+  },
+  {
+    year: 2023,
+    text: "Built AI-powered applications and participated in hackathons, gaining experience in collaborative software development.",
+  },
+  {
+    year: 2024,
+    text: "Started professional software development journey through internships, working on backend systems, APIs, and cloud technologies.",
+  },
+  {
+    year: 2025,
+    text: "Specialized in Golang backend development by building scalable APIs, automation tools, AWS integrations, and production-grade applications.",
+  },
+  {
+    year: 2026,
+    text: "Working as an Associate Software Engineer while expanding expertise in Microservices, gRPC, NATS, Cloud Technologies, and Data Analytics.",
+  },
 ];

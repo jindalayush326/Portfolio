@@ -54,7 +54,7 @@ const HeroBgAnimation = () => (
         transform="translate(-295.027 -193.118)"
         rx="1.07306"
         ry="1.07433"
-        fill="#46737"
+        fill="#F46737"
       >
         <animateMotion
           dur="5s"
@@ -88,7 +88,7 @@ const HeroBgAnimation = () => (
         fill="#945DD6"
       >
         <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
-          <mpath xlinkHref="#path_0" />
+          <mpath href="#path_0" />
         </animateMotion>
       </ellipse>
       <path
@@ -97,7 +97,7 @@ const HeroBgAnimation = () => (
         stroke="url(#paint4_linear)"
       >
         <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
-          <mpath xlinkHref="#path_0" />
+          <mpath href="#path_0" />
         </animateMotion>
       </path>
       <ellipse
@@ -114,7 +114,7 @@ const HeroBgAnimation = () => (
           repeatCount="indefinite"
           rotate="auto"
         >
-          <mpath xlinkHref="#path_0" />
+          <mpath href="#path_0" />
         </animateMotion>
       </ellipse>
       <path
@@ -128,7 +128,7 @@ const HeroBgAnimation = () => (
           repeatCount="indefinite"
           rotate="auto"
         >
-          <mpath xlinkHref="#path_0" />
+          <mpath href="#path_0" />
         </animateMotion>
       </path>
       <ellipse
@@ -176,7 +176,7 @@ const HeroBgAnimation = () => (
           repeatCount="indefinite"
           rotate="auto"
         >
-          <mpath xlinkHref="#path_0" />
+          <mpath href="#path_0" />
         </animateMotion>
       </ellipse>
       <path
@@ -190,7 +190,7 @@ const HeroBgAnimation = () => (
           repeatCount="indefinite"
           rotate="auto"
         >
-          <mpath xlinkHref="#path_0" />
+          <mpath href="#path_0" />
         </animateMotion>
       </path>
       <ellipse
@@ -207,7 +207,7 @@ const HeroBgAnimation = () => (
           repeatCount="indefinite"
           rotate="auto"
         >
-          <mpath xlinkHref="#path_0" />
+          <mpath href="#path_0" />
         </animateMotion>
       </ellipse>
       <path
@@ -221,7 +221,7 @@ const HeroBgAnimation = () => (
           repeatCount="indefinite"
           rotate="auto"
         >
-          <mpath xlinkHref="#path_0" />
+          <mpath href="#path_0" />
         </animateMotion>
       </path>
       <defs>

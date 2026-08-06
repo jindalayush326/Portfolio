@@ -63,21 +63,49 @@ const Body = styled.div`
   flex-direction: column;
 `;
 
-const Role = styled.div`
-  font-size: 16px;
-  font-weight: 600;
+const Company = styled.h3`
+  font-size: 24px;
+  font-weight: 700;
   color: ${({ theme }) => theme.text_primary};
-  @media only screen and (max-width: 768px) {
-    font-size: 12px;
+  margin: 0;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
   }
 `;
 
-const Company = styled.div`
-  font-size: 12px;
-  font-weight: 500;
-  color: ${({ theme }) => theme.text_secondary};
-  @media only screen and (max-width: 768px) {
-    font-size: 10px;
+const Role = styled.div`
+  font-size: 17px;
+  font-weight: 600;
+  color: ${({ theme }) => theme.primary};
+  margin-top: 6px;
+
+  @media (max-width: 768px) {
+    font-size: 15px;
+  }
+`;
+
+const Date = styled.div`
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: 12px;
+  padding: 6px 14px;
+
+  border-radius: 30px;
+
+  background: rgba(133, 76, 230, 0.18);
+
+  color: #c89cff;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  border: 1px solid rgba(133, 76, 230, 0.35);
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+    padding: 5px 12px;
   }
 `;
 
@@ -103,6 +131,26 @@ const Skill = styled.div`
   }
 `;
 
+const Image = styled.img`
+  width: 82px;
+  height: 82px;
+
+  object-fit: contain;
+
+  background: white;
+
+  padding: 8px;
+
+  border-radius: 14px;
+
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 6px 18px;
+
+  @media (max-width: 768px) {
+    width: 65px;
+    height: 65px;
+  }
+`;
+
 const ExperienceCard = ({ experience, onExpand }) => {
   const [expanded, setExpanded] = useState(false);
 
@@ -114,11 +162,17 @@ const ExperienceCard = ({ experience, onExpand }) => {
   return (
     <Card onClick={handleToggleExpand}>
       <Top>
+        <Image
+          src={experience.img}
+          alt={experience.company}
+          loading="lazy"
+        />
         <Body>
-          <Role>{experience.role}</Role>
           <Company>{experience.company}</Company>
+          <Role>{experience.role}</Role>
+
           {/* Use a proper styled component or HTML element for date */}
-          <div>{experience.date}</div>
+          <Date>{experience.date}</Date>
         </Body>
       </Top>
       <Description expanded={expanded}>
