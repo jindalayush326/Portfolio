@@ -6,7 +6,6 @@ import AnalyticsIcon from "@mui/icons-material/Analytics";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import {
   HeroContainer,
-  HeroBg,
   HeroLeftContainer,
   Img,
   HeroRightContainer,

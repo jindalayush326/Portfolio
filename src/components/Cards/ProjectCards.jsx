@@ -201,44 +201,44 @@ const ImageContainer = styled.div`
   height:220px;
 `;
 
-const Overlay = styled.div`
-  position:absolute;
-  inset:0;
+// const Overlay = styled.div`
+//   position:absolute;
+//   inset:0;
 
-  background:linear-gradient(
-  rgba(0,0,0,.15),
-  rgba(0,0,0,.75));
+//   background:linear-gradient(
+//   rgba(0,0,0,.15),
+//   rgba(0,0,0,.75));
 
-  display:flex;
-  justify-content:center;
-  align-items:center;
+//   display:flex;
+//   justify-content:center;
+//   align-items:center;
 
-  opacity:0;
+//   opacity:0;
 
-  transition:.35s ease;
-`;
+//   transition:.35s ease;
+// `;
 
-const ViewButton = styled.div`
-  padding:12px 24px;
+// const ViewButton = styled.div`
+//   padding:12px 24px;
 
-  border-radius:40px;
+//   border-radius:40px;
 
-  background:${({theme})=>theme.primary};
+//   background:${({theme})=>theme.primary};
 
-  color:white;
+//   color:white;
 
-  font-weight:600;
+//   font-weight:600;
 
-  display:flex;
-  align-items:center;
-  gap:8px;
+//   display:flex;
+//   align-items:center;
+//   gap:8px;
 
-  transform:translateY(20px);
+//   transform:translateY(20px);
 
-  opacity:0;
+//   opacity:0;
 
-  transition:.35s ease;
-`;
+//   transition:.35s ease;
+// `;
 
 const Image = styled.img`
   width:100%;
